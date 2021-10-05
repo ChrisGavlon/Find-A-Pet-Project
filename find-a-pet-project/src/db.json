@@ -1,0 +1,86 @@
+{
+    "cats": [
+        {
+            "id": 1,
+            "name": "bigby",
+            "image": "https://cdn.discordapp.com/attachments/671167612582887442/894776037429358602/20211002_141605.jpg",
+            "breed": "american short-hair",
+            "bio": "Adventurous and spicy.",
+            "location": "Houston"
+        },
+        {
+            "id": 2,
+            "name": "nezbitte",
+            "image": "https://cdn.discordapp.com/attachments/671167612582887442/894776321241128990/20210917_200336.jpg",
+            "breed": "american short-hair",
+            "bio": "Fat and lazy lapcat.",
+            "location": "Houston"
+        },
+        {
+            "id": 3,
+            "name": "maggie",
+            "image": "https://cdn.discordapp.com/attachments/671167612582887442/894776321891237958/20210714_122342.jpg",
+            "breed": "maine coon",
+            "bio": "Anxious and sweet.",
+            "location": "Seattle"
+        },
+        {
+            "id": 4,
+            "name": "mowglie",
+            "image": "https://cdn.discordapp.com/attachments/671167612582887442/894776320859459654/20210929_121714.jpg",
+            "breed": "toyger",
+            "bio": "Playful and mischievous.",
+            "location": "New York"
+        },
+        {
+            "id": 5,
+            "name": "dimi",
+            "image": "https://cdn.discordapp.com/attachments/671167612582887442/894775950317875270/20211004_205901.jpg",
+            "breed": "american short-hair",
+            "bio": "Adventurous and sweet",
+            "location": "Houston"
+        }
+    ], 
+    "dogs": [
+    {
+        "id": 1,
+        "name": "cupcake",
+        "image": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fstatic.onecms.io%2Fwp-content%2Fuploads%2Fsites%2F47%2F2021%2F05%2F04%2Fmaltese-grass-looking-at-camera-128369494-2000.jpg",
+        "breed": "maltese",
+        "bio": "Relaxed, and good with families.",
+        "location": "Houston"
+    },
+    {
+        "id": 2,
+        "name": "coco",
+        "image": "https://cdn.discordapp.com/attachments/671167612582887442/894776839631933480/20210706_131843.jpg",
+        "breed": "yorkie",
+        "bio": "Energetic, and good with families.",
+        "location": "Oklahoma"
+    },
+    {
+        "id": 3,
+        "name": "sarge",
+        "image": "https://cdn.discordapp.com/attachments/671167612582887442/894776840261095495/20210706_132048.jpg",
+        "breed": "chihuahua",
+        "bio": "An old and sweet dog.",
+        "location": "Cincinnati"
+    },
+    {
+        "id": 4,
+        "name": "cooper",
+        "image": "https://cdn.discordapp.com/attachments/671167612582887442/894778630826254366/20170707_231805.jpg",
+        "breed": "golden retriever",
+        "bio": "Very sweet, but does not do well with kids.",
+        "location": "Austin"
+    },
+    {
+        "id": 5,
+        "name": "rusty",
+        "image": "https://www.everythingshihtzu.com/images/shih-tzu-information.jpg",
+        "breed": "shih tzu",
+        "bio": "Old doge that enjoys laying down all day",
+        "location": "Houston"
+    }
+    ]
+}
