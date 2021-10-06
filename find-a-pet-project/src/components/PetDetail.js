@@ -1,5 +1,11 @@
-function PetDetail(){
 
+
+function PetDetail(){
+    
+    return(
+        <>
+        </>
+    )
 }
 
 export default PetDetail;
