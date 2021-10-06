@@ -7,7 +7,7 @@ function AnimalCards({animal}){
         <CardWrapper>
         <img src={animal.image} style={{width: "200px"}}/>
         <h3>{animal.name}</h3>
-        <h3>{animal.bio}</h3>
+        <p>{animal.bio}</p>
         <Link>Details</Link>
         </CardWrapper>
     )

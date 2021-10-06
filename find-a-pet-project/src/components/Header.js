@@ -4,7 +4,7 @@ function Header(){
     return(
         <>
         <H1Container>     
-        <Link to="/"><h1>Find A Pet</h1></Link>
+        <Link to="/"><h1>FIND A PET</h1></Link>
         <Link to="/form"><strong>Fill Out Form</strong></Link>
         </H1Container>
         
