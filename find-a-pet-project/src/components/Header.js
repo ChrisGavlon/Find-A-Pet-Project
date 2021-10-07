@@ -5,7 +5,6 @@ function Header(){
         <>
         <H1Container>     
         <Link to="/"><h1>FIND A PET</h1></Link>
-        <Link to="/form"><strong>Fill Out Form</strong></Link>
         </H1Container>
         
         </>
@@ -18,11 +17,13 @@ const H1Container = styled.div `
 background: #00abba;
 display: flex;
 justify-content: center;
-color: #c3c7c7;
 font-family: 'Roboto', sans-serif;
-& strong{
-    color: red;
-    margin: 21.44px;
+& a{
     text-decoration: none;
+}
+& h1{
+    font-family: Cursive;
+    color: #c3c7c7;
+    margin: 21.44px;
 }
 `

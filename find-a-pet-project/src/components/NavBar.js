@@ -1,21 +1,20 @@
 import { Link } from 'react-router-dom'
 import styled from 'styled-components';
-function PetSelect(){
-    
+
+function NavBar(){
     return(
-        <>
         <NavContainer>
-        <Link to="/animals/dogs">Dogs</Link>
-        <Link to="/animals/cats">Cats</Link>
+        <Link to="/animals">Animals</Link>
+        <Link to="/form">Fill Out Form</Link>
+        <Link to="/">Home</Link>
         </NavContainer>
-        </>
     )
 }
 
-export default PetSelect;
+export default NavBar;
 
 const NavContainer = styled.div `
-background: #4d6dbf;
+background: #4d91bf;
 padding: 0.5em 2em;
 margin: 2em;
 justify-content: center;
