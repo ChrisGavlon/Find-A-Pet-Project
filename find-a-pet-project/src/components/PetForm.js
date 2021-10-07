@@ -1,6 +1,9 @@
 import styled from 'styled-components'
 
 function PetForm(){
+
+    // add submit feature that adds form to form array in database
+    
 return(
 <FormWrapper>
     <strong>Name:</strong>

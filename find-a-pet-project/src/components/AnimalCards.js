@@ -5,7 +5,7 @@ function AnimalCards({animal, setSelectedPet}){
     
     return(
         <CardWrapper>
-        <img src={animal.image} style={{width: "200px"}}/>
+        <img src={animal.image} style={{width: "200px"}} alt={animal.name} />
         <h3>{animal.name}</h3>
         <p>{animal.bio}</p>
         <Link onClick={() => setSelectedPet(animal)} to={`/petdetail/${animal.id}`}>Details</Link>

@@ -5,7 +5,6 @@ function NavBar(){
     return(
         <NavContainer>
         <Link to="/animals">Animals</Link>
-        <Link to="/form">Fill Out Form</Link>
         <Link to="/">Home</Link>
         </NavContainer>
     )

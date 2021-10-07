@@ -1,10 +1,13 @@
 import { Link } from 'react-router-dom'
 import styled from 'styled-components';
-function PetSelect(){
+import SearchBar from './SearchBar';
+
+function PetNav({setSearch}){
     
     return(
         <>
         <NavContainer>
+        <SearchBar setSearch={setSearch}/>
         <Link to="/animals/dogs">Dogs</Link>
         <Link to="/animals/cats">Cats</Link>
         </NavContainer>
@@ -12,7 +15,7 @@ function PetSelect(){
     )
 }
 
-export default PetSelect;
+export default PetNav;
 
 const NavContainer = styled.div `
 background: #4d6dbf;

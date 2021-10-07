@@ -12,6 +12,7 @@ function Home(){
 export default Home;
 
 const HomeWrapper = styled.div `
+color: white;
 text-align: center;
 font-family: Cursive;
 `

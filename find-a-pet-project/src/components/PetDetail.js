@@ -1,14 +1,16 @@
 import styled from "styled-components";
+import { Link } from 'react-router-dom';
 
 function PetDetail({animal}){
     
     return(
         <DetailWrapper>
-        <img src={animal.image} style={{width: "500px"}}/>
+        <img src={animal.image} style={{width: "500px"}} alt={animal.name}/>
         <h1>Name: {animal.name}</h1>
         <h3>Breed: {animal.breed}</h3>
         <p>Bio: {animal.bio}</p>
-        <p>City: {animal.location}</p>
+        <p>City: {animal.city}</p>
+        <Link to="/form">Fill Out Form</Link>
         </DetailWrapper>
     )
 }
