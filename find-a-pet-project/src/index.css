@@ -1,3 +1,92 @@
 body {
     background-image: url('https://wallpaperaccess.com/full/1863066.jpg');
 }
+
+/* handles the PetForm compononent ------------------------------------*/
+
+form.new-form{
+    flex-direction: column;
+    background-color: #bac3d4;
+    margin-left: 25%;
+    margin-right:25%;
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+
+form input.new-form{
+    margin-left: 35%;
+}
+
+form textarea{
+    margin-left: 35%
+}
+
+form button.new-form{
+    margin-left: 35%;
+}
+
+form strong{
+    margin-left: 35%;
+}
+
+/* handles DisplayForm component --------------------------------------*/
+
+div.displayed-form{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 10px;
+    width: 200px;
+    padding: 25px;
+    background: whitesmoke;
+    box-shadow: 0 0 10px rgba(0, 0, 0.1), 0 0 40px rgba(0, 0, 0, 0.12);
+    flex-direction: row;
+}
+
+div.displayed-form strong{
+    font-size: x-small;
+    color: gray;
+}
+
+/* handles MyForms component  ----------------------------------------*/
+
+div.MyForms{
+    margin-left: 15em;
+    margin-right: 15em;
+}
+
+h1.MyForms-header{
+    font-family: cursive;
+    text-align: center;
+    text-decoration: underline;
+    color: #c3c7c7;
+    background-color: #5038a8;
+}
+
+/* ------------------------------------------------------------------ */
+
+/* handles the PetNav compononent ------------------------------------*/
+div.pet-nav{
+    background: #385da8;
+    padding: 0.5em 2em;
+    margin: 2em;
+    justify-content: center;
+}
+
+div.pet-nav a{
+    font-family: cursive;
+    text-decoration: none;
+    color: white;
+    margin: 20px;
+}
+
+div.pet-nav a:hover{
+    color:#c8d48e;
+}
+
+div.pet-nav a:active{
+    color: #f1ffad;
+}
+/* ---------------------------------------------------------------------- */
+
+/* form.search-pet{
+   
+} */

@@ -1,86 +1,121 @@
 {
-    "cats": [
-        {
-            "id": 1,
-            "name": "Bigby",
-            "image": "https://cdn.discordapp.com/attachments/671167612582887442/894776037429358602/20211002_141605.jpg",
-            "breed": "American Short-Hair",
-            "bio": "He is a good boi, although often times he enjoys being by himself, but he'll come to around for the occasional snuggle. (He is also very fuzzy)",
-            "city": "Houston"
-        },
-        {
-            "id": 2,
-            "name": "Nezbitte",
-            "image": "https://cdn.discordapp.com/attachments/671167612582887442/894776321241128990/20210917_200336.jpg",
-            "breed": "American Short-Hair",
-            "bio": "He is very Chonky and very lazy. He is the model lapcat, and can often be seen staring off at the corner of the room with an empty gaze.",
-            "city": "Houston"
-        },
-        {
-            "id": 3,
-            "name": "Maggie",
-            "image": "https://cdn.discordapp.com/attachments/671167612582887442/894776321891237958/20210714_122342.jpg",
-            "breed": "Maine Coon",
-            "bio": "Maggie is an Anxious sweet-heart, when she isn't busy fearing for her life she will allow you to pet her.",
-            "city": "Seattle"
-        },
-        {
-            "id": 4,
-            "name": "Mowglie",
-            "image": "https://cdn.discordapp.com/attachments/671167612582887442/894776320859459654/20210929_121714.jpg",
-            "breed": "Toyger",
-            "bio": "Playful and unrelenting, for this little guy playtime is all the time. With a seemingly endless battery Mowglie will make sure you're always on your toes.",
-            "city": "New York City"
-        },
-        {
-            "id": 5,
-            "name": "Dimi",
-            "image": "https://cdn.discordapp.com/attachments/671167612582887442/894775950317875270/20211004_205901.jpg",
-            "breed": "American Short-Hair",
-            "bio": "Despite being so young, Dimi is very sociable. He is mildly playful and always has time for sleeping and eating, he's a growing boy ya know!",
-            "city": "Houston"
-        }
-    ], 
-    "dogs": [
+  "cats": [
     {
-        "id": 1,
-        "name": "Cupcake",
-        "image": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fstatic.onecms.io%2Fwp-content%2Fuploads%2Fsites%2F47%2F2021%2F05%2F04%2Fmaltese-grass-looking-at-camera-128369494-2000.jpg",
-        "breed": "Maltese",
-        "bio": "Relaxed, and good with families. Has a beautiful white coat.",
-        "city": "Houston"
+      "id": 1,
+      "name": "Bigby",
+      "image": "https://cdn.discordapp.com/attachments/671167612582887442/894776037429358602/20211002_141605.jpg",
+      "breed": "American Short-Hair",
+      "bio": "He is a good boi, although often times he enjoys being by himself, but he'll come to around for the occasional snuggle. (He is also very fuzzy)",
+      "city": "Houston"
     },
     {
-        "id": 2,
-        "name": "Coco",
-        "image": "https://cdn.discordapp.com/attachments/671167612582887442/894776839631933480/20210706_131843.jpg",
-        "breed": "Yorkie",
-        "bio": "Energetic, and good with families. has a gorgeous black coat.",
-        "city": "Tulsa"
+      "id": 2,
+      "name": "Nezbitte",
+      "image": "https://cdn.discordapp.com/attachments/671167612582887442/894776321241128990/20210917_200336.jpg",
+      "breed": "American Short-Hair",
+      "bio": "He is very Chonky and very lazy. He is the model lapcat, and can often be seen staring off at the corner of the room with an empty gaze.",
+      "city": "Houston"
     },
     {
-        "id": 3,
-        "name": "Sarge",
-        "image": "https://cdn.discordapp.com/attachments/671167612582887442/894776840261095495/20210706_132048.jpg",
-        "breed": "Chihuahua",
-        "bio": "An old and sweet dog. On most days you'll find him wearing a sweater going for walks.",
-        "city": "Cincinnati"
+      "id": 3,
+      "name": "Maggie",
+      "image": "https://cdn.discordapp.com/attachments/671167612582887442/894776321891237958/20210714_122342.jpg",
+      "breed": "Maine Coon",
+      "bio": "Maggie is an Anxious sweet-heart, when she isn't busy fearing for her life she will allow you to pet her.",
+      "city": "Seattle"
     },
     {
-        "id": 4,
-        "name": "Cooper",
-        "image": "https://cdn.discordapp.com/attachments/671167612582887442/894778630826254366/20170707_231805.jpg",
-        "breed": "Golden Retriever",
-        "bio": "Has the sweetest face you could ever know and a personality to match, but does not do well with kids.",
-        "city": "Austin"
+      "id": 4,
+      "name": "Mowglie",
+      "image": "https://cdn.discordapp.com/attachments/671167612582887442/894776320859459654/20210929_121714.jpg",
+      "breed": "Toyger",
+      "bio": "Playful and unrelenting, for this little guy playtime is all the time. With a seemingly endless battery Mowglie will make sure you're always on your toes.",
+      "city": "New York City"
     },
     {
-        "id": 5,
-        "name": "Rusty",
-        "image": "https://www.everythingshihtzu.com/images/shih-tzu-information.jpg",
-        "breed": "Shih Tzu",
-        "bio": "Old doge that enjoys laying down all day, this one would likely be best suited for an elderly couple.",
-        "city": "Houston"
+      "id": 5,
+      "name": "Dimi",
+      "image": "https://cdn.discordapp.com/attachments/671167612582887442/894775950317875270/20211004_205901.jpg",
+      "breed": "American Short-Hair",
+      "bio": "Despite being so young, Dimi is very sociable. He is mildly playful and always has time for sleeping and eating, he's a growing boy ya know!",
+      "city": "Houston"
     }
-    ]
-} 
+  ],
+  "dogs": [
+    {
+      "id": 1,
+      "name": "Cupcake",
+      "image": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fstatic.onecms.io%2Fwp-content%2Fuploads%2Fsites%2F47%2F2021%2F05%2F04%2Fmaltese-grass-looking-at-camera-128369494-2000.jpg",
+      "breed": "Maltese",
+      "bio": "Relaxed, and good with families. Has a beautiful white coat.",
+      "city": "Houston"
+    },
+    {
+      "id": 2,
+      "name": "Coco",
+      "image": "https://cdn.discordapp.com/attachments/671167612582887442/894776839631933480/20210706_131843.jpg",
+      "breed": "Yorkie",
+      "bio": "Energetic, and good with families. has a gorgeous black coat.",
+      "city": "Tulsa"
+    },
+    {
+      "id": 3,
+      "name": "Sarge",
+      "image": "https://cdn.discordapp.com/attachments/671167612582887442/894776840261095495/20210706_132048.jpg",
+      "breed": "Chihuahua",
+      "bio": "An old and sweet dog. On most days you'll find him wearing a sweater going for walks.",
+      "city": "Cincinnati"
+    },
+    {
+      "id": 4,
+      "name": "Cooper",
+      "image": "https://cdn.discordapp.com/attachments/671167612582887442/894778630826254366/20170707_231805.jpg",
+      "breed": "Golden Retriever",
+      "bio": "Has the sweetest face you could ever know and a personality to match, but does not do well with kids.",
+      "city": "Austin"
+    },
+    {
+      "id": 5,
+      "name": "Rusty",
+      "image": "https://www.everythingshihtzu.com/images/shih-tzu-information.jpg",
+      "breed": "Shih Tzu",
+      "bio": "Old doge that enjoys laying down all day, this one would likely be best suited for an elderly couple.",
+      "city": "Houston"
+    }
+  ],
+  "forms": [
+    {
+      "name": "Bigby",
+      "address": "11930 Quail Creek",
+      "phone": "8322440371",
+      "email": "chrisgavlon@gmail.com",
+      "reason": "I like fuzzy cats.",
+      "": "d",
+      "id": 1
+    },
+    {
+      "name": "Cooper",
+      "address": "Lucky street",
+      "phone": "8322440371",
+      "email": "hooligan@live.com",
+      "reason": "I like his hat",
+      "id": 2
+    },
+    {
+      "name": "Bigby",
+      "address": "19930 lucky street",
+      "phone": "784216784619",
+      "email": "example@exmaple.com",
+      "reason": "because he is fuzzy.",
+      "id": 3
+    },
+    {
+      "name": "Bigby",
+      "address": "lalalala",
+      "phone": "888333999",
+      "email": "exam@axemlp.com",
+      "reason": "I like his mitts.",
+      "id": 4
+    }
+  ]
+}

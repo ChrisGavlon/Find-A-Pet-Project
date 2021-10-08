@@ -23,7 +23,14 @@ font-family: 'Roboto', sans-serif;
 }
 & h1{
     font-family: Cursive;
-    color: #c3c7c7;
+    color: white;
     margin: 21.44px;
+}
+& h1:hover{
+    color: #c8d48e;
+}
+
+& h1:active{
+    color: #f1ffad;
 }
 `

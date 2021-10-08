@@ -7,7 +7,7 @@ function SearchBar({setSearch}){
 
 return(
     <>
-    <form onSubmit={handleSubmit}>
+    <form onSubmit={handleSubmit} className="pet-search">
     <input type="text"  placeholder="Search By Name" />
     <button type="submit">Search</button>
     </form>

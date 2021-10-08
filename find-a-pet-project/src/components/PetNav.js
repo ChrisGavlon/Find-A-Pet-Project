@@ -1,32 +1,24 @@
-import { Link } from 'react-router-dom'
-import styled from 'styled-components';
+import { Link } from 'react-router-dom';
 import SearchBar from './SearchBar';
+import CategoryFilter from './CategoryFilter';
+import { useLocation } from 'react-router-dom';
 
-function PetNav({setSearch}){
-    
+function PetNav({setSearch, setCatBreed, setDogBreed, setCity}){
+
+    const location = useLocation().pathname;
+
     return(
         <>
-        <NavContainer>
+        <div className="pet-nav">
+        <CategoryFilter setCatBreed={setCatBreed} setDogBreed={setDogBreed} setCity={setCity} />
+        {location === '/animals/cats' || location === '/animals/dogs' ?
         <SearchBar setSearch={setSearch}/>
+        : null }
         <Link to="/animals/dogs">Dogs</Link>
         <Link to="/animals/cats">Cats</Link>
-        </NavContainer>
+        </div>
         </>
     )
 }
 
 export default PetNav;
-
-const NavContainer = styled.div `
-background: #4d6dbf;
-padding: 0.5em 2em;
-margin: 2em;
-justify-content: center;
-& a{
-    font-family: Cursive;
-    color: white;
-    text-decoration: none;
-    display: inline;
-    margin: 2em;
-}
-`
